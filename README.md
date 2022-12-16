@@ -1,12 +1,10 @@
-- [ ] Tratar erros de seletores invalido jogando para raspagem da receita federal ou sintegra; ¬
-- [x] Iniciar projeto da raspagem da receita federal;
-- [x] Adicionar razão social de cada cnpj;
-- [x] Tratar seletor deficiente ( #Table6 > tbody > tr:nth-child(4) );
-- [ ] Receita federal tem hCaptcha, tentar contornar ou achar uma alternativa
-- [ ] Iniciar sintegra
-- [ ] Melhotar nomes para os arquivos gerados
-- [ ] Tirar espaços misteriosos
+*     NECESSARIO TER UM ARQUIVO TXT COM NOME CNPJS.TXT CONTENDO TODOS OS CNPJS A SER CONSULTADO.
+*     OS CNPJS DEVEM ESTAR SOMENTE COM NUMEROS, SEM PONTOS E HIFENS E BARRAS E TAMBÉM SEM ESPAÇOS
+*     CADA CNPJ A SER CONSULTADO DEVE ESTAR EM SOMENTE UMA LINHA E SEGUINDO A REGRA ACIMA
 
-      Notas
+OBS: A CONSULTA É FEITA PELO SITE https://cnpj.biz/ e também  https://www.sefaz.ba.gov.br/
 
-Index2 esta com alguns progressos, mas que ainda precisam ser tratados de forma mais limpa e depois ser implementado no index principal
+OBS2: COMO PADRÃO PARA MINHA UTILIZAÇÃO PESSOAL, OS RESULTADOS ESTARÃO SOMENTE LISTADOS COM: NUMERO DO CNPJ / SITUAÇÃO CADASTRAL / CNAE
+caso deseje outras informações, deve ser feito atualizações no codigo.
+O codigo não estará de facil entendimento pois sou iniciante na area de programação, mas caso queira algum tipo de auxilio pode entrar em contato comigo pelo meu whatsapp¬
+https://api.whatsapp.com/send?phone=5571993277415&text=Oi%2C%20vim%20pelo%20gitHub
